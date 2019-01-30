@@ -16,23 +16,23 @@
 
   
         <!-- Add -->
-        <input type="text" class="form-control"  v-show="add" @keypress="typing=true" placeholder="Add Name" v-model="addName">
+        <input type="text" class="form-control"  v-show="add" @keypress="typing=true" placeholder="Node Name" v-model="addName">
         <!-- End Add -->
 
         <!-- Edit -->
-        <input type="text" class="form-control"  style="margin-bottom:10px;" v-show="edit" @keypress="typing=true" placeholder="Edit Name" v-model="editName">
-        <input type="text" class="form-control" v-show="edit"  @keypress="typing=true" placeholder="Edit Index" v-model="editIndex">
+        <input type="text" class="form-control"  style="margin-bottom:10px;" v-show="edit" @keypress="typing=true" placeholder="Node Name" v-model="editName">
+        <input type="text" class="form-control" v-show="edit"  @keypress="typing=true" placeholder="Node Index" v-model="editIndex">
 
         <!-- End Edit -->
 
 
         <!-- Delete -->
-        <input type="text" class="form-control" v-show="deleteNode"  @keypress="typing=true" placeholder="Delete Index" v-model="deleteIndex">       
+        <input type="text" class="form-control" v-show="deleteNode"  @keypress="typing=true" placeholder="Node Index" v-model="deleteIndex">       
 
         <!-- End Delete -->
 
         <!-- Read -->
-        <input type="text" class="form-control" v-show="read" @keypress="typing=true" placeholder="Read Index" v-model="readIndex">
+        <input type="text" class="form-control" v-show="read" @keypress="typing=true" placeholder="Node Index" v-model="readIndex">
            
         <!-- End Read -->
 
