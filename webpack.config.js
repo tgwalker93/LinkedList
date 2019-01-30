@@ -1,5 +1,5 @@
 module.exports = {
-
+  mode: 'production',
   entry: './public/src/main.js',
   output: {
     filename: './public/build/bundle.js'  
