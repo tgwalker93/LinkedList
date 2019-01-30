@@ -10307,7 +10307,7 @@ module.exports = function normalizeComponent (
 
       switch (this.operation) {
         case "add":
-          let url = 'http://localhost:4000/api/add';
+          let url = '/api/add';
           let param = {
             name: this.addName,
             index: this.addIndex || null,
@@ -10325,7 +10325,7 @@ module.exports = function normalizeComponent (
           });
           break;
         case "edit":
-          let url2 = 'http://localhost:4000/api/edit';
+          let url2 = '/api/edit';
           let param2 = {
             name: this.editName,
             index: this.editIndex || null,
@@ -10348,7 +10348,7 @@ module.exports = function normalizeComponent (
           });
           break;
         case "delete":
-          let url3 = 'http://localhost:4000/api/delete';
+          let url3 = '/api/delete';
           let param3 = {
             index: this.deleteIndex,
             done: 0
@@ -10370,7 +10370,7 @@ module.exports = function normalizeComponent (
           });
           break;
         case "read":
-          let url4 = 'http://localhost:4000/api/read';
+          let url4 = '/api/read';
           let param4 = {
             index: this.readIndex,
             done: 0
@@ -12483,7 +12483,9 @@ var render = function() {
     _vm._v(" "),
     _vm._m(0),
     _vm._v(" "),
-    _c("div")
+    _c("div"),
+    _vm._v(" "),
+    _c("br")
   ])
 }
 var staticRenderFns = [

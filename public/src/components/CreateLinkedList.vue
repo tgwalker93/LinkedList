@@ -40,7 +40,6 @@
         <!-- <span class="help-block small text-center" v-show="typing">Hit enter or click button to submit</span> -->
         <br/>
         <button type="button" class="btn btn-primary" v-show="typing" v-on:click="submit()"> Submit</button>
-  
 
     
       </div>
@@ -54,6 +53,7 @@
     <div>
 
     </div>
+    <br/>
 
   </div>
   
@@ -118,7 +118,7 @@
 
         switch(this.operation){
           case "add":
-        let url = 'http://localhost:4000/api/add';
+        let url = '/api/add';
         let param = {
           name: this.addName,
           index: this.addIndex || null,
@@ -137,7 +137,7 @@
         })
           break;
           case "edit":
-        let url2 = 'http://localhost:4000/api/edit';
+        let url2 = '/api/edit';
         let param2 = {
           name: this.editName,
           index: this.editIndex || null,
@@ -161,7 +161,7 @@
         })
           break;
           case "delete":
-        let url3 = 'http://localhost:4000/api/delete';
+        let url3 = '/api/delete';
         let param3 = {
           index: this.deleteIndex,
           done: 0
@@ -184,7 +184,7 @@
         })
           break;
           case "read":
-        let url4 = 'http://localhost:4000/api/read';
+        let url4 = '/api/read';
         let param4 = {
           index: this.readIndex,
           done: 0
