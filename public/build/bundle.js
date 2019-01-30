@@ -12314,7 +12314,7 @@ var render = function() {
               }
             ],
             staticClass: "form-control",
-            attrs: { type: "text", placeholder: "Add Name" },
+            attrs: { type: "text", placeholder: "Node Element" },
             domProps: { value: _vm.addName },
             on: {
               keypress: function($event) {
@@ -12346,7 +12346,7 @@ var render = function() {
             ],
             staticClass: "form-control",
             staticStyle: { "margin-bottom": "10px" },
-            attrs: { type: "text", placeholder: "Edit Name" },
+            attrs: { type: "text", placeholder: "Node Element" },
             domProps: { value: _vm.editName },
             on: {
               keypress: function($event) {
@@ -12377,7 +12377,7 @@ var render = function() {
               }
             ],
             staticClass: "form-control",
-            attrs: { type: "text", placeholder: "Edit Index" },
+            attrs: { type: "text", placeholder: "Node Index" },
             domProps: { value: _vm.editIndex },
             on: {
               keypress: function($event) {
@@ -12408,7 +12408,7 @@ var render = function() {
               }
             ],
             staticClass: "form-control",
-            attrs: { type: "text", placeholder: "Delete Index" },
+            attrs: { type: "text", placeholder: "Node Index" },
             domProps: { value: _vm.deleteIndex },
             on: {
               keypress: function($event) {
@@ -12439,7 +12439,7 @@ var render = function() {
               }
             ],
             staticClass: "form-control",
-            attrs: { type: "text", placeholder: "Read Index" },
+            attrs: { type: "text", placeholder: "Node Index" },
             domProps: { value: _vm.readIndex },
             on: {
               keypress: function($event) {

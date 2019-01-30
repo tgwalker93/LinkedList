@@ -16,11 +16,11 @@
 
   
         <!-- Add -->
-        <input type="text" class="form-control"  v-show="add" @keypress="typing=true" placeholder="Node Name" v-model="addName">
+        <input type="text" class="form-control"  v-show="add" @keypress="typing=true" placeholder="Node Element" v-model="addName">
         <!-- End Add -->
 
         <!-- Edit -->
-        <input type="text" class="form-control"  style="margin-bottom:10px;" v-show="edit" @keypress="typing=true" placeholder="Node Name" v-model="editName">
+        <input type="text" class="form-control"  style="margin-bottom:10px;" v-show="edit" @keypress="typing=true" placeholder="Node Element" v-model="editName">
         <input type="text" class="form-control" v-show="edit"  @keypress="typing=true" placeholder="Node Index" v-model="editIndex">
 
         <!-- End Edit -->
