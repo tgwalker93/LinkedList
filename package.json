@@ -4,24 +4,26 @@
   "description": "A simple Vue, Node, and Express application where you can use an API to create, read, edit, or delete from a linked list. ",
   "main": "server.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.2.1",
     "css-loader": "^0.28.11",
+    "express": "^4.16.4",
     "morgan": "^1.9.1",
     "prettier": "^1.16.2",
     "vue": "^2.5.22",
-    "vue-loader": "^13.7.3",
     "vue-axios": "^2.1.4",
+    "vue-loader": "^13.7.3",
     "vue-template-compiler": "^2.5.22",
     "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.11.3"
+    "webpack-dev-server": "^3.1.11"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node server",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
