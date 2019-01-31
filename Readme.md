@@ -1,4 +1,4 @@
-## In Memory Linked List
+##Linked List
 
 Add, Edit, Delete, or Read from a linked list. Each action will make an API call.
 
