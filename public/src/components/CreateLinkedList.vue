@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 style="margin-top: 100px; margin-below: 10px">Add, Edit, Delete, or Read from the Linked List below.</h2>
+    <h2 style="margin-below: 10px">Add, Edit, Delete, or Read from the Linked List below.</h2>
     <p>What would you like to do?<p>
     
     <form @submit.prevent>
@@ -13,7 +13,6 @@
         <button type="button" class="btn btn-primary" v-on:click="add=false; edit=false; deleteNode=false; read=true; resetResult()"> Read</button>
         </div>
         <br/>
-
   
         <!-- Add -->
         <input type="text" class="form-control"  v-show="add" @keypress="typing=true" placeholder="Node Element" v-model="addName">
