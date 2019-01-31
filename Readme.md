@@ -1,6 +1,6 @@
 ## In Memory Linked List
 
-Add, Edit, Delete, or Read from an in memory linked list. 
+Add, Edit, Delete, or Read from a linked list. Each action will make an API call.
 
 **Run**
 
